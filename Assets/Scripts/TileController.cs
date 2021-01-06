@@ -5,16 +5,28 @@ using UnityEngine;
 public class TileController : MonoBehaviour
 {
     public float noiseLevel;
-    public Material water;
-    public Material grass;
+    public Renderer tileRenderer;
+
+    public TerrainType[] regions;
+
+    public void Awake() {
+        tileRenderer = GetComponent<Renderer>();
+    }
 
     public void updateTile() {
-        if(noiseLevel < 0.4) {
-            transform.position = new Vector3(transform.position.x, -0.2f, transform.position.z);
-            gameObject.GetComponent<Renderer>().material = water;
-        } 
-        else {
-            gameObject.GetComponent<Renderer>().material = grass;
+        for (int i = 0; i < regions.Length; i++) {
+            if (noiseLevel >= regions[i].colourLevel) {
+                tileRenderer.material.color = regions[i].colour;
+                transform.position = new Vector3(transform.position.x, regions[i].height, transform.position.z);
+            }
         }
     }
+}
+
+[System.Serializable]
+public struct TerrainType {
+    public string name;
+    public float colourLevel;
+    public Color colour;
+    public float height;
 }

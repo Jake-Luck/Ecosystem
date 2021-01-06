@@ -170,8 +170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &46919653
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -281,8 +281,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &51028496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -392,8 +392,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &62922162
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -503,8 +503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &66513346
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -614,8 +614,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &104950844
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -725,8 +725,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &108797690
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -836,8 +836,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &132655767
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -947,8 +947,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &143657394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1058,8 +1058,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &191579971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1169,8 +1169,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &233019787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1280,8 +1280,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &244379589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1391,8 +1391,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &288997686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1502,8 +1502,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &298440989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1613,8 +1613,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &364604981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1724,8 +1724,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &390648898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1835,8 +1835,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &393595774
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1946,8 +1946,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &397191095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2057,8 +2057,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &405062500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2168,8 +2168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &409989674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2279,8 +2279,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &448319647
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2390,8 +2390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &476382592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2501,8 +2501,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &483290383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2612,8 +2612,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &485195979
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2723,8 +2723,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &558633392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2834,8 +2834,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &569511820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2945,8 +2945,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &610607845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3056,8 +3056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &610971964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3167,8 +3167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &658406586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3278,8 +3278,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &666609899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3389,8 +3389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &675092238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3500,8 +3500,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &679177057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3611,8 +3611,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &696274844
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3722,8 +3722,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &708363104
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3833,8 +3833,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &749273872
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3944,8 +3944,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &751592656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4055,8 +4055,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &794936034
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4166,8 +4166,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &821874143
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4277,8 +4277,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &856215929
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4388,8 +4388,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &870513939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4499,8 +4499,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &872241622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4610,8 +4610,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &913813259
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4721,8 +4721,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &972328836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4832,8 +4832,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &996270118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4943,8 +4943,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1029830916
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5054,8 +5054,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1039551890
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5165,8 +5165,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1064880994
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5276,8 +5276,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1144340328
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5387,8 +5387,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1165691572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5498,8 +5498,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1172026649
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5609,8 +5609,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1200726188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5720,8 +5720,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1235269958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5831,8 +5831,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1245893754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5942,8 +5942,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1269318512
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6053,8 +6053,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1292315399
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6164,8 +6164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1316911116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6275,8 +6275,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1413811316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6386,8 +6386,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1456298522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6497,8 +6497,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1458687102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6607,15 +6607,15 @@ MonoBehaviour:
   drawMode: 1
   tileContainer: {fileID: 1564755669}
   mapTile: {fileID: 705131921918733708, guid: d82eb9d27bed8eb47b7b1de74b052115, type: 3}
-  mapWidth: 10
-  mapHeight: 10
+  mapWidth: 32
+  mapHeight: 32
   noiseScale: 15
   octaves: 4
   persistance: 0.5
   lacunarity: 2
   seed: 14
   offset: {x: 0, y: 0}
-  autoUpdate: 0
+  autoUpdate: 1
 --- !u!4 &1469361689
 Transform:
   m_ObjectHideFlags: 0
@@ -6677,8 +6677,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1476734743
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6788,8 +6788,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1477610018
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6899,8 +6899,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1492508582
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7010,8 +7010,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1494306822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7202,8 +7202,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1511825786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7313,8 +7313,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1528365462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7504,6 +7504,8 @@ Transform:
   - {fileID: 1245893752}
   - {fileID: 2058961971}
   - {fileID: 2111740246}
+  - {fileID: 1851348276}
+  - {fileID: 1714536006}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7646,8 +7648,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1570544862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7757,8 +7759,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1572007622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7868,8 +7870,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1591158734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7979,8 +7981,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1607951436
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8090,8 +8092,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1616106862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8201,8 +8203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1627256535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8312,8 +8314,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1652930330
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8423,8 +8425,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1682499826
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8487,6 +8489,153 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682499823}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1714536005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1714536006}
+  - component: {fileID: 1714536010}
+  - component: {fileID: 1714536009}
+  - component: {fileID: 1714536008}
+  - component: {fileID: 1714536007}
+  m_Layer: 0
+  m_Name: MapTile(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1714536006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714536005}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -15.5, y: 0, z: -15.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1564755670}
+  m_RootOrder: 101
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1714536007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714536005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d154de70cd8564ba6831a74a690457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noiseLevel: 0.57640755
+  tileRenderer: {fileID: 0}
+  regions:
+  - name: Very deep
+    colourLevel: 0
+    colour: {r: 0, g: 0.4666667, b: 0.7137255, a: 0}
+    height: 0
+  - name: Deep
+    colourLevel: 0.3
+    colour: {r: 0, g: 0.7058824, b: 0.8470589, a: 0}
+    height: 0
+  - name: Shallow
+    colourLevel: 0.4
+    colour: {r: 0.28235295, g: 0.79215693, b: 0.8941177, a: 0}
+    height: 0
+  - name: Very shallow
+    colourLevel: 0.45
+    colour: {r: 1, g: 1, b: 0.1254902, a: 0}
+    height: 0
+  - name: Grass
+    colourLevel: 0.5
+    colour: {r: 0.16862746, g: 0.5764706, b: 0.28235295, a: 0}
+    height: 0
+  - name: Rich grass
+    colourLevel: 0.55
+    colour: {r: 0.33333334, g: 0.6509804, b: 0.18823531, a: 0}
+    height: 0
+  - name: Low grass
+    colourLevel: 0.6
+    colour: {r: 0.33333334, g: 0.6509804, b: 0.18823531, a: 0}
+    height: 0
+  - name: Unfarmable
+    colourLevel: 0.75
+    colour: {r: 0.49803925, g: 0.33333334, b: 0.22352943, a: 1}
+    height: 0
+  - name: Unfarmable
+    colourLevel: 0.9
+    colour: {r: 0.254717, g: 0.17613922, b: 0.12375402, a: 1}
+    height: 0
+--- !u!65 &1714536008
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714536005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1714536009
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714536005}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1714536010
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714536005}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1722005288
 GameObject:
   m_ObjectHideFlags: 0
@@ -8534,8 +8683,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1722005291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8645,8 +8794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1756693596
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8756,8 +8905,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1760721968
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8867,8 +9016,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1762319815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8978,8 +9127,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1781921339
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9089,8 +9238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1811447556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9200,8 +9349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1832804680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9311,8 +9460,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1839987314
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9422,8 +9571,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1843277765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9533,8 +9682,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1844292762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9644,8 +9793,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1848669736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9708,6 +9857,153 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848669733}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1851348275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1851348276}
+  - component: {fileID: 1851348280}
+  - component: {fileID: 1851348279}
+  - component: {fileID: 1851348278}
+  - component: {fileID: 1851348277}
+  m_Layer: 0
+  m_Name: MapTile(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1851348276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851348275}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.5, y: -0.2, z: -4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1564755670}
+  m_RootOrder: 100
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851348277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851348275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d154de70cd8564ba6831a74a690457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noiseLevel: 0.32215995
+  tileRenderer: {fileID: 0}
+  regions:
+  - name: Very deep
+    colourLevel: 0.1
+    colour: {r: 0.011764707, g: 0.015686275, b: 0.36862746, a: 0}
+    height: 0
+  - name: Deep
+    colourLevel: 0.2
+    colour: {r: 0, g: 0.5882353, b: 0.7803922, a: 0}
+    height: 0
+  - name: Shallow
+    colourLevel: 0.3
+    colour: {r: 0.28235295, g: 0.79215693, b: 0.8941177, a: 0}
+    height: 0
+  - name: Very Shallow
+    colourLevel: 0.4
+    colour: {r: 0.6784314, g: 0.909804, b: 0.9568628, a: 0}
+    height: 0
+  - name: Sand
+    colourLevel: 0.5
+    colour: {r: 0.9333334, g: 0.93725497, b: 0.1254902, a: 0}
+    height: 0
+  - name: Rich grass
+    colourLevel: 0.6
+    colour: {r: 0, g: 0.49803925, b: 0.37254903, a: 0}
+    height: 0
+  - name: Grass
+    colourLevel: 0.7
+    colour: {r: 0.33333334, g: 0.6509804, b: 0.18823531, a: 0}
+    height: 0
+  - name: Short grass
+    colourLevel: 0.8
+    colour: {r: 0.6666667, g: 0.8000001, b: 0, a: 0}
+    height: 0
+  - name: Dry earth
+    colourLevel: 1
+    colour: {r: 0.8313726, g: 0.8431373, b: 0, a: 0}
+    height: 0
+--- !u!65 &1851348278
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851348275}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1851348279
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851348275}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1851348280
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851348275}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1861717475
 GameObject:
   m_ObjectHideFlags: 0
@@ -9755,8 +10051,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1861717478
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9866,8 +10162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1901915848
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9977,8 +10273,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1930376113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10088,8 +10384,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1940330227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10199,8 +10495,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1945441825
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10310,8 +10606,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1955967798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10421,8 +10717,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1957312359
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10532,8 +10828,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1976539533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10643,8 +10939,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &1994153133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10754,8 +11050,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &2015168103
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10865,8 +11161,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &2050646897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10976,8 +11272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &2058961973
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11087,8 +11383,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &2063018946
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11198,8 +11494,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &2111740248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11309,8 +11605,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &2129827415
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11420,8 +11716,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &2135767612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11531,8 +11827,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions: []
 --- !u!65 &2146316189
 BoxCollider:
   m_ObjectHideFlags: 0

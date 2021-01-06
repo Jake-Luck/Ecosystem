@@ -109,5 +109,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  water: {fileID: 2100000, guid: d75efdda6bba03c4683ec20eeae421de, type: 2}
-  grass: {fileID: 2100000, guid: 29f7b12f766bbeb4684b5e8e4f874a8c, type: 2}
+  tileRenderer: {fileID: 0}
+  regions:
+  - name: Very deep
+    colourLevel: 0
+    colour: {r: 0, g: 0.5882353, b: 0.7803922, a: 0}
+    height: -0.2
+  - name: Deep
+    colourLevel: 0.4
+    colour: {r: 0, g: 0.7058824, b: 0.8470589, a: 0}
+    height: -0.2
+  - name: Rich grass
+    colourLevel: 0.5
+    colour: {r: 0.16862746, g: 0.5764706, b: 0.28235295, a: 0}
+    height: 0
+  - name: Grass
+    colourLevel: 0.55
+    colour: {r: 0.33333334, g: 0.6509804, b: 0.18823531, a: 0}
+    height: 0
+  - name: Earth
+    colourLevel: 0.6
+    colour: {r: 1, g: 1, b: 0.1254902, a: 0}
+    height: 0
