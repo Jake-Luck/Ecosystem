@@ -5,9 +5,9 @@ using UnityEngine;
 public class TileController : MonoBehaviour
 {
     public float noiseLevel;
-    public Renderer tileRenderer;
-
     public TerrainType[] regions;
+
+    private Renderer tileRenderer;
 
     public void Awake() {
         tileRenderer = GetComponent<Renderer>();
