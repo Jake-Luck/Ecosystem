@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 4038324938302344122}
   - component: {fileID: 8384638136401814518}
   - component: {fileID: 6804016105655255512}
+  - component: {fileID: 2110179913174347050}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Untagged
@@ -399,6 +400,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2110179913174347050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3693184302116016384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd79cabf5810f1841bb40b2174c69db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDelay: 2
+  hunger: 0
+  thirst: 0
+  horniness: 0
+  currentActivity: 0
 --- !u!1 &3985775166346676281
 GameObject:
   m_ObjectHideFlags: 0

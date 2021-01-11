@@ -8,9 +8,11 @@ public class TileController : MonoBehaviour
     public TerrainType[] regions;
 
     private Renderer tileRenderer;
+    private BoxCollider boxCollider;
 
     public void Awake() {
         tileRenderer = GetComponent<Renderer>();
+        boxCollider = GetComponent<BoxCollider>();
     }
 
     public void updateTile() {
@@ -19,6 +21,11 @@ public class TileController : MonoBehaviour
                 tileRenderer.material.color = regions[i].colour;
                 transform.position = new Vector3(transform.position.x, regions[i].height, transform.position.z);
             }
+        }
+
+        if (noiseLevel < 0.5) {
+            boxCollider.size = new Vector3(1, 5, 1);
+            boxCollider.center = new Vector3(0, 2, 0);
         }
     }
 }

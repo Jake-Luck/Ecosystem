@@ -109,7 +109,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseLevel: 0.3
-  tileRenderer: {fileID: 0}
   regions:
   - name: Very deep
     colourLevel: 0

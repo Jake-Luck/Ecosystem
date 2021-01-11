@@ -32,10 +32,24 @@ public class MapGenerator : MonoBehaviour
     public int seed;
     public Vector2 offset;
     public bool autoUpdate;
+    public bool useFalloff;
+    private float[,] falloffMap;
 
+    void Awake() {
+        falloffMap = FalloffGenerator.GenerateFalloffMap(mapWidth, mapHeight);
+    }
     public void GenerateMap() {
         float[,] noiseMap = Noise.GenerateNoiseMap(mapWidth, mapHeight, seed, noiseScale, octaves, persistance, lacunarity, offset);
 
+        
+        if (useFalloff) {
+            for (int x = 0; x < mapWidth; x++) {
+                for (int y = 0; y < mapHeight; y++) {
+                    noiseMap[x, y] = Mathf.Clamp01(noiseMap[x, y] - falloffMap[x, y]);
+                }
+            }
+        }
+        
         if (drawMode == DrawMode.NoiseMap) {
             MapDisplay display = FindObjectOfType<MapDisplay> ();
             display.DrawNoiseMap (noiseMap);
