@@ -22,6 +22,7 @@ public class MapGenerator : MonoBehaviour
     public GameObject sheepContainer;
     public int numSheep;
     private static System.Random rng = new System.Random();
+    private List<Vector3> spawnableTiles = new List<Vector3>();
 
     // Sebastian Lague's noise gen stuff
     public float noiseScale;
@@ -68,30 +69,28 @@ public class MapGenerator : MonoBehaviour
             for(int x = 0; x < mapWidth; x++) {
                 for(int y = 0; y < mapHeight; y++) {
                     var newTile = Instantiate(mapTile, new Vector3(x + 0.5f - (mapWidth / 2), 0, y + 0.5f - (mapWidth / 2)), Quaternion.identity); // Division and "+0.5f" is to center the map at 0, 0
+                    float noiseLevel = new float();
+                    noiseLevel = noiseMap[x, y];
                     newTile.transform.parent = tileContainer.transform;
 
                     var tileController = newTile.GetComponent<TileController>();
-                    tileController.noiseLevel = noiseMap[x,y];
-                    tileController.updateTile();
+                    tileController.noiseLevel = noiseLevel;
+                    tileController.InitializeTile();
+
+                    if (numSheep > 0 && noiseLevel >= 0.5) {
+                        spawnableTiles.Add(new Vector3(x + 0.5f - (mapWidth / 2), 1, y + 0.5f - (mapWidth / 2)));
+                    }
                 }
             }
 
             // Calls spawn sheep method
-            spawnSheep(noiseMap);
+            if (numSheep > 0) {
+                SpawnSheep(noiseMap);
+            }
         }
     }
 
-    void spawnSheep(float[,] noiseMap) {
-        // Stores eligible spawn positions as a vector3 inside a list
-        List<Vector3> spawnableTiles = new List<Vector3>();
-        for(int x = 0; x < mapWidth; x++) {
-            for(int y = 0; y < mapHeight; y++) {
-                if(noiseMap[x, y] >= 0.5) {  // 0.5 is above sea level
-                    spawnableTiles.Add(new Vector3(x + 0.5f - (mapWidth / 2), 1, y + 0.5f - (mapWidth / 2)));
-                }
-            }
-        }
-        // Shuffles the list to make sheep spawns random
+    void SpawnSheep(float[,] noiseMap) {
         for(int i = spawnableTiles.Count - 1; i > 0; i--) {
             int pointer = rng.Next(i + 1);
             Vector3 value = spawnableTiles[pointer];

@@ -15,7 +15,7 @@ public class TileController : MonoBehaviour
         boxCollider = GetComponent<BoxCollider>();
     }
 
-    public void updateTile() {
+    public void InitializeTile() {
         for (int i = 0; i < regions.Length; i++) {
             if (noiseLevel >= regions[i].colourLevel) {
                 tileRenderer.material.color = regions[i].colour;

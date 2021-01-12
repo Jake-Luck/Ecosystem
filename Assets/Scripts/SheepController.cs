@@ -1,15 +1,22 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class SheepController : MonoBehaviour
 {
     public float moveDelay = 2;
+    private float timeUntilMove;
     private Rigidbody rigidBody;
 
-    public float hunger;
-    public float thirst;
-    public float horniness;
+    
+    private float thirst = 100;
+    private float hunger = 100;
+    private float horny = 0;
+    public float thirstLimit = 50;
+    public float hungerLimit = 50;
+    public float hornyLimit = 50;
+    
     private int directionX;
     private int directionY;
     private int rotation;
@@ -25,11 +32,26 @@ public class SheepController : MonoBehaviour
 
     void Awake() {
         rigidBody = GetComponent<Rigidbody>();
-        
-        StartCoroutine(searching());
+
+        StartCoroutine(updateStats());
     }
-    
-    IEnumerator searching() {        
+
+    private void Update() {
+        if (thirst < thirstLimit) {
+            //search for water
+        }
+        else if (hunger < hungerLimit) {
+            //search for food
+        } 
+        else if (horny > hornyLimit) {
+            //search for mate
+        }
+        else {
+            //search for food
+        }
+    }
+
+    void searching() {
         while(currentActivity == Activity.Searching) {
 
             float direction = UnityEngine.Random.Range(0, 4);
@@ -61,16 +83,24 @@ public class SheepController : MonoBehaviour
             }
 
             move(directionX, directionY, rotation);
-
-            yield return new WaitForSeconds(moveDelay);
         }
     }
-
     void move(float x, float y, float rotation) {
         Vector3 moveDirection = new Vector3(x * 100, 100, y * 100);
         rigidBody.AddForce(moveDirection);
         Quaternion tempQuaternion = new Quaternion();
         tempQuaternion.eulerAngles = new Vector3(0f, rotation, 0f);
         rigidBody.transform.rotation = tempQuaternion;
+    }
+
+    IEnumerator updateStats() {
+        while (thirst > 0 && hunger > 0) {
+            yield return new WaitForSeconds(1);
+            thirst -= 1;
+            hunger -= 1;
+            horny += 1;
+        }
+
+        Destroy(gameObject);
     }
 }
