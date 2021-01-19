@@ -2,11 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
 
 public class SheepController : MonoBehaviour
 {
     public float moveDelay = 2;
-    private float timeUntilMove;
+    private float lastMoved;
     private Rigidbody rigidBody;
 
     
@@ -32,11 +33,13 @@ public class SheepController : MonoBehaviour
 
     void Awake() {
         rigidBody = GetComponent<Rigidbody>();
+        lastMoved = moveDelay;
 
         StartCoroutine(updateStats());
     }
 
     private void Update() {
+        searching();
         if (thirst < thirstLimit) {
             //search for water
         }
@@ -52,45 +55,16 @@ public class SheepController : MonoBehaviour
     }
 
     void searching() {
-        while(currentActivity == Activity.Searching) {
-
-            float direction = UnityEngine.Random.Range(0, 4);
-            switch (direction)
-            {
-                case 0:
-                    directionX = 1;
-                    directionY = 0;
-                    rotation = 180;
-                    break;
-                case 1:
-                    directionX = 0;
-                    directionY = 1;
-                    rotation = 90;
-                    break;
-                case 2:
-                    directionX = -1;
-                    directionY = 0;
-                    rotation = 0;
-                    break;
-                case 3:
-                    directionX = 0;
-                    directionY = -1;
-                    rotation = -90;
-                    break;
-                default:
-                    Debug.Log("4");
-                    break;
-            }
-
-            move(directionX, directionY, rotation);
+        if (Time.time - lastMoved > moveDelay) {
+            transform.eulerAngles = new Vector3(0, UnityEngine.Random.Range(0, 360), 0);
+            move();
         }
     }
-    void move(float x, float y, float rotation) {
-        Vector3 moveDirection = new Vector3(x * 100, 100, y * 100);
-        rigidBody.AddForce(moveDirection);
-        Quaternion tempQuaternion = new Quaternion();
-        tempQuaternion.eulerAngles = new Vector3(0f, rotation, 0f);
-        rigidBody.transform.rotation = tempQuaternion;
+    void move() {
+        Vector3 force = -transform.right;
+        force = new Vector3(force.x, 1, force.z);
+        rigidBody.AddForce(force * 115);
+        lastMoved = Time.time;
     }
 
     IEnumerator updateStats() {

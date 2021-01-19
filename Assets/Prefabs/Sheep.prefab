@@ -413,9 +413,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDelay: 2
-  hunger: 0
-  thirst: 0
-  horniness: 0
+  thirstLimit: 50
+  hungerLimit: 50
+  hornyLimit: 0
   currentActivity: 0
 --- !u!1 &3985775166346676281
 GameObject:
