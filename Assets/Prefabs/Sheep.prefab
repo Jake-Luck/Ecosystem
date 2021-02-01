@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 2110179913174347050}
   m_Layer: 0
   m_Name: Sheep
-  m_TagString: Untagged
+  m_TagString: Creature
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -412,11 +412,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd79cabf5810f1841bb40b2174c69db3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDelay: 2
-  thirstLimit: 50
-  hungerLimit: 50
-  hornyLimit: 0
-  currentActivity: 0
+  thirst: 80
+  hunger: 80
+  reproductiveUrge: 0
+  searchingFor: 1
+  currentTarget: {fileID: 0}
 --- !u!1 &3985775166346676281
 GameObject:
   m_ObjectHideFlags: 0

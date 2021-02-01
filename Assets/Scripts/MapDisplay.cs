@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MapDisplay : MonoBehaviour
 {
@@ -8,14 +6,14 @@ public class MapDisplay : MonoBehaviour
     public Renderer textureRender;
 
     public void DrawNoiseMap(float[,] noiseMap) {
-        int width = noiseMap.GetLength (0);
-        int height = noiseMap.GetLength (1);
+        var width = noiseMap.GetLength (0);
+        var height = noiseMap.GetLength (1);
 
-        Texture2D texture = new Texture2D(width, height);
+        var texture = new Texture2D(width, height);
 
-        Color[] colourMap = new Color[width * height];
-        for (int y = 0; y < height; y++) {
-            for (int x = 0; x < width; x++) {
+        var colourMap = new Color[width * height];
+        for (var y = 0; y < height; y++) {
+            for (var x = 0; x < width; x++) {
                 colourMap[y * width + x] = Color.Lerp(Color.black, Color.white, noiseMap[x, y]);
             }
         }
